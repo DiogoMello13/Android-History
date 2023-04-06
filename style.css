@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: bold;
+    font-size: 1em;
+}
+
+body {
+    background-color: #7BFBA1;
+}
+
+header {
+    background-image: linear-gradient(to top, #38745e, #23a877); color: white;
+}
+
+header > h1 {
+    font-size: 2em; text-align: center; padding-bottom: 25px; padding-top: 15px; 
+}
+
+header > p {
+    text-align: center; 
+}
+
+header > nav {
+    padding-top: 25px; text-align: start; padding-left: 20px; padding-bottom: 25px;
+}
+
+header > nav > a {
+    color: white; padding-right: 20px; text-decoration: none; font-weight: bold; font-size: 1.1em;
+}
+
+header > nav > a:hover {
+    background-color: rgb(14, 90, 48); color: #38745e;
+}
+
+main {
+    background-color: white; width: 70%; margin: 0 auto 0 auto;
+}
+
+main > article > h1 {
+    font-size: 1.9em; color: rgb(29, 68, 32); font-weight: bolder; text-align: center; padding: 20px; font-family: 'Idroid';
+}
+
+main > article > h2 {
+    font-size: 1.5em; color: rgb(29, 68, 32); font-weight: bolder; text-align: center; padding: 20px; font-family: 'Idroid';
+}
+
+main > article > p {
+    text-indent: 25px; padding: 15px;
+}
+
+img {
+    display: block; margin-left: auto; margin-right: auto;
+}
+
+.video {
+    background-color: #38745e; height: 500px;
+}
+iframe {
+    display: block; margin: auto; padding: 25px; width: 90%; height: 90%;
+}
+
+main > article > aside {
+    background-color: #c4faee; padding: 35px; margin: 30px;
+}
+
+main > article > aside > h3 {
+    background-color: #3ead56; padding: 10px; color: white; font-family: 'Idroid';
+}
+
+main > article > aside > p {
+    text-indent: 25px; padding-bottom: 20px;
+}
+
+main > article > aside > ul{
+    display: inline-block; margin-right: 30%; padding-bottom: 15px; list-style-image: url(imagens/certo.png);
+}
+
+.pfinal{
+    text-indent: 40px;  background-color: white; margin-left: 40px; margin-right: 40px; display: block; font-weight: 400;
+}
+
+footer{
+    background-color: #0e4411; color: white; font-size: 1.2em; font-weight: bold; text-align: 
+    center; height: 25px; padding: 10px;
+}
+
+.link{
+    color: #0e4411; font-weight: bolder; text-decoration: none; 
+}
